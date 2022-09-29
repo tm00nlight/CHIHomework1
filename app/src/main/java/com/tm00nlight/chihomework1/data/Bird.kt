@@ -5,7 +5,5 @@ import android.util.Log
 class Bird (override val name: String) : Animal() {
     override val isFlying: Boolean = true
 
-    override fun sound() {
-
-    }
+    override fun sound(): String = "squawk"
 }
